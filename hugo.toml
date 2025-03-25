@@ -1,0 +1,44 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Pratham Bhargava'
+theme = 'paper'
+
+[services]
+  [services.disqus]
+    shortname = 'YOUR_DISQUS_SHORTNAME'     # use disqus comments
+
+[params]
+  # color style
+  color = 'wheat'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'k-guy-dev'                 # github.com/YOUR_GITHUB_ID
+  linkedin = 'pratham-bhargava-722466153'             # linkedin.com/in/YOUR_LINKEDIN_ID
+
+  # home page profile
+  avatar = 'https://1.gravatar.com/avatar/aa5631821b22afa233f62a7941715557e7b2368f606b3f7973824879ca6248c2?size=5126'                 # gravatar email or image url
+  name = 'PRATHAM BHARGAVA'
+  bio  =  "I write about tech, books, philosophy and about anything I feel like writing ✌🏻"
+
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = false              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  math = true                               # enable KaTeX math typesetting globally
+  localKatex = false                        # use local KaTeX js/css instead of CDN
+  graphCommentId = "pratham0928"  # use graph comment (disqus alternative)
+  favicon = "favicon.ico"                   # customize the default favicon
+  appleTjuchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
+
+
+  # giscus
+[params.giscus]
+  repo = 'https://github.com/k-guy-dev/prathambhargava.com-giscus'                 # see https://giscus.app for more details
+  repoId = 'R_kgDOOM8R7w'
+  category = 'General'
+  categoryId = 'DIC_kwDOOM8R784CoWty'
+  mapping = 'pathname'
+  theme = 'light'
+  lang = 'zh-CN'
