@@ -1,0 +1,6 @@
+version: '3'
+services:
+    website:
+       image: prathambhargava-com:hugo-test
+       ports:
+       - 1313:1313
