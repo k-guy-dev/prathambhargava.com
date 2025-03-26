@@ -1,4 +1,4 @@
-baseURL = 'https://prathambhargava.com/'
+baseURL = 'http://prathambhargava.com/'
 languageCode = 'en-us'
 title = 'Pratham Bhargava'
 theme = 'paper'
