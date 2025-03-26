@@ -42,3 +42,7 @@ theme = 'paper'
   mapping = 'pathname'
   theme = 'light'
   lang = 'zh-CN'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
